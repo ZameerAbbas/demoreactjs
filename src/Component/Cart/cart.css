@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1023px) {
+   
+   
+    .codesec{
+        width: 100%;
+    }
+  }
+  
+@media only screen and (max-width: 917px) {
+    .maincardone{
+        width: 100%;
+      
+    }
+    .codesec{
+        width: 100%;
+    }
+    .maincode{
+        width: 100%;
+       }
+       .resposiveone{
+        padding-left: 50px;
+
+       }
+  }
+@media only screen and (max-width: 512px) {
+    .maincardone{
+        width: 70%;;
+      
+    }
+    .codesec{
+        width: 80%;
+    }
+    .maincode{
+        width: 90%;
+       }
+       .resposiveone{
+        padding-left: 70px;
+        display: inline-block;
+
+       }
+       .responsiverow{
+        flex-direction: column;
+       }
+       .input{
+        margin: 10px 0;
+       }
+  }
+  

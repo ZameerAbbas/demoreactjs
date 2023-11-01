@@ -1,0 +1,39 @@
+.leading-none {
+  position: relative;
+}
+.leading-none::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 7px;
+  background-color: black;
+  position: absolute;
+  bottom: -25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainabout{
+    position: relative;
+  }
+  .fullmadia1 {
+    width: 100%;
+    position: relative;
+  }
+  .fullmadia {
+/* border: 1px solid red; */
+    width: 100%;
+    /* height: 50vh; */
+    position: absolute;
+    color: white;
+    padding-top: 35px;
+   
+  }
+  .fullmadia img {
+    width: 100%;
+    height: 50vh;
+  }
+  .leading-none::after {
+    display: none;
+    background-color: white;
+  }
+}

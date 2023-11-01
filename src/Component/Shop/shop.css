@@ -1,0 +1,40 @@
+.shophero {
+  background-image: url("../../images/ne.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 60vh;
+}
+
+.hershoptext {
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 60vh;
+}
+
+.NavfilterConatiner {
+}
+
+.ShopGridConatiner {
+}
+.Gridcard {
+}
+@media only screen and (max-width: 772px) {
+  .shophero {
+    height: 40vh;
+  }
+  .hershoptext {
+    width: 80%;
+    height: 40vh;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .shophero {
+    height: 30vh;
+  }
+  .hershoptext {
+    width: 100%;
+    height: 30vh;
+  }
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 512px) {
+    .smalldisplay{
+        display: none;
+    }
+  .smallscreen {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

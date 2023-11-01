@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1024px) {
+  .shoemain {
+    /* border: 1px solid red; */
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  .showesone {
+    width: 100%;
+    position: relative;
+ 
+    height: 50vh;
+  }
+  .showesone img {
+    height: 50vh;
+  }
+  .shoestwo {
+    width: 100%;
+    padding: 0;
+  }
+}
+
